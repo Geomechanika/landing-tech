@@ -1,87 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <title>Сайт в разработке</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-    body {
-        min-height: 100vh;
-        background: #e9ecdf;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
-    }
-    .card {
-        background: #fff;
-        border-radius: 32px;
-        box-shadow: 0 8px 32px 0 rgba(20, 22, 24, 0.10);
-        padding: 56px 36px 40px 36px;
-        max-width: 420px;
-        width: 100%;
-        text-align: center;
-        border: none;
-        position: relative;
-        box-sizing: border-box;
-    }
-    .logo {
-        max-width: 120px;
-        width: 100%;
-        margin-bottom: 32px;
-        margin-top: 0;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .company {
-        font-family: 'Segoe UI', Arial, sans-serif;
-        font-weight: 700;
-        font-size: 1.5rem;
-        letter-spacing: 0.5px;
-        margin-bottom: 20px;
-        color: #232323;
-    }
-    .caption {
-        font-family: 'Segoe UI', Arial, sans-serif;
-        color: #636363;
-        font-size: 1.13rem;
-        font-weight: 400;
-    }
-    @media (max-width: 600px) {
-        .card {
-            padding: 24px 10px 20px 10px;
-            border-radius: 24px;
-            max-width: 80vw;
-            width: 75vw;
-            height: 75vw;        /* квадратная форма */
-            min-height: 330px;   /* чтобы не было слишком мало текста */
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .logo {
-            max-width: 80px;
-            margin-bottom: 24px;
-        }
-        .company {
-            font-size: 1.1rem;
-            margin-bottom: 12px;
-        }
-        .caption {
-            font-size: 1em;
-        }
-    }
-    </style>
-</head>
-<body>
-    <div class="card">
-        <img src="logo.png" alt="Логотип" class="logo">
-        <div class="company">Научно-технический<br>центр<br>«Геомеханика»</div>
-        <div class="caption">Сайт в разработке</div>
-    </div>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0; url=https://geomechanika.ru/" />
+    <link rel="canonical" href="https://geomechanika.ru/" />
+    <script>
+      // сохраняем путь, query и hash
+      const target = "https://geomechanika.ru" + location.pathname + location.search + location.hash;
+      location.replace(target);
+    </script>
+    <title>Redirecting…</title>
+  </head>
+  <body>
+    Переадресация на <a href="https://geomechanika.ru/">geomechanika.ru</a>
+  </body>
 </html>
-
